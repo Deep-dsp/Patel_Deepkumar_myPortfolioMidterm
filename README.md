@@ -10,6 +10,8 @@ This is going to be my portfolio website which will give you all information reg
 1. javascript 
 2. Html
 3. Css
+4. AJAX
+5. JSON
 
 ### Web Development Framework:
 
