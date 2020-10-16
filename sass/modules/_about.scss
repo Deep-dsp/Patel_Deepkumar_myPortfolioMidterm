@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Rubik:wght@600&display=swap');
+
+.aboutSection
+{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImage{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: red;
+    height: 100vh;
+
+    img{
+        width: 650px;
+        height:auto;
+    }
+}
+
+.aboutContent{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: space-around;
+    // background-color: yellow;
+    padding-right: 100px;
+    height: 70vh;
+
+    div.aboutTitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        // background-color: red;
+        p{
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 100px;
+            color: #dfdfdf;
+            position: relative;
+        }
+        p::before{
+            content: "";
+            position: absolute;
+            width: 80%;
+            height: 2px;
+            right: 0;
+            bottom: 0;
+            background-color: ff6f19;
+        }
+
+    }
+
+    div.aboutPara{
+        // background-color: green;
+        p{
+            font-family: 'Roboto', sans-serif;
+            font-size: 1vw;
+            text-align: justify;
+            letter-spacing: 1.5;
+            line-height: 1.5;
+        }
+    }
+}
+
+
+
